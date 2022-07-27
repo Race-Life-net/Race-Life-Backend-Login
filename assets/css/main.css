@@ -1,0 +1,35 @@
+:root {
+--bg-color:#212121;
+--default-text-color:#fff;
+--secondary-color:red
+}
+
+body {
+background-color:var(--bg-color);
+color:var(--default-text-color);
+font-family:Arial,Helvetica,sans-serif;
+width:100%;
+position:static!important;
+top:0!important;
+margin:0;
+-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none
+}
+
+.loader {
+position:fixed;
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:var(--bg-color);
+transition:all .5s;
+z-index:99;
+cursor:progress;
+overflow:hidden
+}
